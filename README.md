@@ -9,3 +9,8 @@ There are several exercises in this repository, each of which is separated accor
 - [Exercise 2](./Week-1/Exercise-2/Questions.md)
 - [Exercise 3](./Week-1/Exercise-3/Homework.md)
 - [Exercise 4](./Week-1/Exercise-4/Homework.md)
+
+## Week 2
+
+- [Exercise 1](https://github.com/0xScratch/SolanaBootcamp/tree/main/homeworks_rust/homeworks/homework5)
+- [Exercise 2](https://github.com/0xScratch/SolanaBootcamp/tree/main/homeworks_rust/homeworks/homework6)
