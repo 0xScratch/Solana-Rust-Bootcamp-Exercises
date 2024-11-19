@@ -5,7 +5,7 @@ There are several exercises in this repository, each of which is separated accor
 
 ## Week 1
 
-- [Exercise 1](./Week%201/Exercise-1/Homework.md)
-- [Exercise 2](./Week%201/Exercise-2/Questions.md)
+- [Exercise 1](./Week-1/Exercise-1/Homework.md)
+- [Exercise 2](./Week-1/Exercise-2/Questions.md)
 - [Exercise 3](./Week-1/Exercise-3/Homework.md)
 - [Exercise 4](./Week-1/Exercise-4/Homework.md)
