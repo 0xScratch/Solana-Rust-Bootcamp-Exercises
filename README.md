@@ -12,5 +12,4 @@ There are several exercises in this repository, each of which is separated accor
 
 ## Week 2
 
-- [Exercise 1](https://github.com/0xScratch/SolanaBootcamp/tree/main/homeworks_rust/homeworks/homework5)
-- [Exercise 2](https://github.com/0xScratch/SolanaBootcamp/tree/main/homeworks_rust/homeworks/homework6)
+- [Exercise 5](./Week-2/Exercise-5/Homework.md)
