@@ -15,3 +15,4 @@ There are several exercises in this repository, each of which is separated accor
 - [Exercise 5](./Week-2/Exercise-5/Homework.md)
 - [Exercise 6](./Week-2/Exercise-6/Homework.md)
 - [Exercise 7](./Week-2/Exercise-7/Homework.md)
+- [Exercise 8](./Week-2/Exercise-8/Homework.md)
