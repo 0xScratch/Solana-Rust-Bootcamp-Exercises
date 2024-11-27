@@ -44,3 +44,14 @@ Balance: 0.24719832 SOL
 ```
 
 As you can see, the `Data Length` is `35344` bytes which is the total program size.
+
+### Example 2 - Counter
+
+Again, two instructions were given for this program:
+
+- Retrieve the lamports balance of the program. -> `solana balance <PROGRAM_ID>`
+- Modify the client to feed an incorrect address for the greeting account of the program.
+
+Normally the program will greet our deterministically created accounts as long as we are using the same address which has been used to deploy the program and thus called as the owner. Hence, the exercise wants us to feed an incorrect address (not owner or not linked to owner) to the program and display [this](https://github.com/0xScratch/SolanaBootcamp/blob/8898b89b3910527b9973a59c9708947edd2c5437/examples_baremetal/example2-counter/rust/src/lib.rs#L38) error.
+
+That's how it has been solved by modifying the client [here](https://github.com/0xScratch/SolanaBootcamp/blob/main/examples_baremetal/example2-counter/client/main.ts). you can easily notice the changes made, especially the variable which has been used a lot inside `deployGreetAccount` asynchronous function - `incorrectGreetedPubkey`.
