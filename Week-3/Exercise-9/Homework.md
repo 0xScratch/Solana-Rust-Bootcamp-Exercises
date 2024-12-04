@@ -35,3 +35,9 @@ let (prime_count, _) = instruction_data
 This line extracts out the first element from the instruction given (which was basically the number entered by the user) and storing it in `prime_count` variable. This is a very handy way to extract out the data from the instruction.
 
 Then this get feeded into the helpers functions, and the output is returned back to the client.
+
+## PDA Example
+
+Just checked out the code and after looking at it, I must say why Anchor is preferred over Native Rust. The code wasn't that hard to read but it do get one's brain cooked. 😂
+
+Anyways, the whole code was around to create PDA, write to it and all that stuff. Nothing much!
