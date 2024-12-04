@@ -17,3 +17,21 @@ There wasn't much to do in here other than just understand how's the code workin
 6. And that's it. Just deploy the program, call it and you will see the output.
 
 **Note:** Make sure to deploy the `example1-helloworld` program first before deploying this program. Otherwise, you will get an error.
+
+## Compute Example
+
+This program was all about computing some prime numbers. The main code lets the user type a number and calculate each prime number upto that count. For example, let's say I entered 20, it will give me first 20 prime numbers. That's it.
+
+Not much to explain here as two helper functions do most of the jobs. One is [is_prime](https://github.com/0xScratch/SolanaBootcamp/blob/64db77be11eb6c5139f1f326fa0eb90076627883/examples_baremetal/example5-compute/rust/src/entrypoint.rs#L30) which checks if the number is prime or not. And the other one is [division_based](https://github.com/0xScratch/SolanaBootcamp/blob/64db77be11eb6c5139f1f326fa0eb90076627883/examples_baremetal/example5-compute/rust/src/entrypoint.rs#L41) which calculates the prime numbers.
+
+There's this interesting code snippet at line 17:
+
+```rust
+let (prime_count, _) = instruction_data
+    .split_first()
+    .ok_or(ProgramError::InvalidArgument)?;
+```
+
+This line extracts out the first element from the instruction given (which was basically the number entered by the user) and storing it in `prime_count` variable. This is a very handy way to extract out the data from the instruction.
+
+Then this get feeded into the helpers functions, and the output is returned back to the client.
